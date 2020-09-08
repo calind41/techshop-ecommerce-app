@@ -1,0 +1,19 @@
+.salecateg-container {
+    position: relative;
+    top: 12vh;
+    height: 55vh;
+    width: 77.19vw;
+
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.salecateg-container > div:nth-child(1) {
+    position: relative;
+    left: 0.5vw;
+}
+.salecateg-container > div:nth-child(2) {
+    position: relative;
+    right: 2.19vw;
+}

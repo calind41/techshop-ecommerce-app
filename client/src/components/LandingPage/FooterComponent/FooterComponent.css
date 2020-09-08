@@ -1,0 +1,135 @@
+.content-container {
+    width: 98.9vw;
+    height: 52vh;
+    position: relative;
+    top: 40vh !important;
+    display: flex;
+    justify-content: space-around;
+    background-color: #262626;
+}
+.content-container div {
+    width: 20vw;
+}
+.content-container .content1 {
+    position: relative;
+    left: 1.9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* width: 20vw; */
+    font-size: 0.8rem;
+    line-height: 23px;
+}
+.content-container .content1 .fc-logo-container {
+    position: relative;
+    left: 10vw;
+    top: 2.5vw;
+    z-index: 999999;
+}
+.content-container .content1 .fc-c1-txt {
+    position: relative;
+    width: 16vw;
+    left: 7vw;
+    bottom: -1.6vh;
+    color: #7d7d7d;
+}
+
+.content-container .content2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    left: 5vw;
+}
+.content-container .content2 .fc-c2-ul-container ul {
+    list-style: none;
+    color: #7d7d7d;
+    font-size: 0.8rem;
+    cursor: pointer;
+    height: 9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.content-container .content2 .fc-c2-ul-container {
+    position: relative;
+    bottom: 10vh;
+    z-index: 20000;
+    width: 8vw;
+}
+.content-container .content2 .fc-c2-ul-container ul li {
+    transition: all .1s ease-in-out;
+}
+.content-container .content2 .fc-c2-ul-container ul li:hover {
+    color: white;
+}
+.content-container .content2  .fc-c2-heading {
+    position: relative;
+    top: 3.4vh;
+    color: white;
+    font-weight: bold;
+}
+
+.content-container .content3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    left: -1vw;
+}
+.content-container .content3 .fc-c2-heading {
+    position: relative;
+    top: 3.4vh;
+    color: white;
+    font-weight: bold;
+}
+.content-container .content3 .fc-c3-ul-container {
+    position: relative;
+    bottom: 10vh;
+}
+.content-container .content3 .fc-c3-ul-container ul li {
+    transition: all .1s ease-in-out;
+}
+.content-container .content3 .fc-c3-ul-container ul li:hover {
+    color: white;
+}
+.content-container .content3 .fc-c3-ul-container ul {
+    list-style: none;
+    color: #7d7d7d;
+    font-size: 0.8rem;
+    cursor: pointer;
+    height: 9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content-container .content4 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    left: -6.1vw;
+    bottom: 8vh;
+}
+.content-container .content4 .fc-c4-container {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #7d7d7d;
+    font-size: 0.8rem;
+    position: relative;
+    top: 1.85vh;
+    right: 2.1vw;
+}
+.content-container .content4 .fc-c4-container .fc-c4-container-icons {
+    color: #ffffff;
+}
+.content-container .content4 .fc-c4-container div span {
+    display: inline-block;
+    margin-left: 0.5vw;
+}
+.colorW {
+    color: white;
+}

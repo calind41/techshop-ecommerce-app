@@ -1,0 +1,23 @@
+.nh-container {
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 7vh;
+}
+.home-link {
+    cursor: pointer;
+    font-size: 14px;
+    color: #1E88E5;
+    margin-left: 11.2vw;
+}
+.home-link:hover {
+    color: #727171;
+}
+.nh-item {
+    cursor: pointer;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid#727171;
+    color: #727171;
+    font-size: 14px;
+}

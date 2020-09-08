@@ -1,0 +1,20 @@
+.logo-container  {
+    font-size: 1.5rem;
+    width: 160px;
+    min-height: 20px;
+    position: relative;
+    top: 2.5px;
+    right: 47px;
+    cursor: pointer;
+    user-select: none;
+}
+#shop {
+    color: #1E88E5;
+    font-weight: 700;
+}
+.logo-link-class:active {
+    color: black;
+}
+.logo-link-class {
+    color: black;
+}

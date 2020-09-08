@@ -1,0 +1,43 @@
+.secure-payment-container {
+    height: 100vh;
+    width: 98.2vw;
+}
+.sp-h1 {
+    font-size: 41px;
+    font-weight: bold;
+    width: 31.5vw;
+    margin: auto;
+    margin-top: 13vh;
+}
+.sp-ptext1 {
+    width: 76.5vw;
+    font-size: 15px;
+    color: #727171;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+.sp-ssl-cert,
+.sp-customer-support,
+.sp-multi-gateway {
+    width: 76.5vw;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+.sp-ssl-cert .sp-heading,
+.sp-customer-support .sp-heading,
+.sp-multi-gateway .sp-heading {
+    color: #1e88e5;
+    font-weight: bold;
+}
+.sp-ssl-cert .sp-heading span,
+.sp-customer-support .sp-heading span,
+.sp-multi-gateway .sp-heading span {margin-left: 0.8vw}
+
+.sp-footer-copyright {
+   position: relative;
+   bottom: 19vh;
+   width: 98.9vw;
+}

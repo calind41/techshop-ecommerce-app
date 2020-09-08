@@ -1,0 +1,30 @@
+.navbar-container {
+    background-color: #1e88e5;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    position: sticky;
+    top: 0px;
+    z-index: 99999999900;
+}
+.navbar-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 12px;
+    width: 32vw;
+    position: relative;
+    left: 10.3vw;
+    
+}
+.navbar-container ul li {
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.25;
+    transition: .3s ease;
+}
+
+.navbar-container ul li:hover {
+    color: #000000;
+}

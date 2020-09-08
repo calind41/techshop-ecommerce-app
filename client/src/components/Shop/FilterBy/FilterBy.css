@@ -1,0 +1,102 @@
+.filterby-container {
+    width: 17.9vw;
+    min-height: 34vh;
+    height: 35vh;
+}
+.filterby-label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 4vh;
+    color: #000000;
+}
+.filter-body {
+    min-height: 32vh;
+    /* max-height: 100vh; */
+    border: 1px solid rgb(218, 218, 218);
+    padding-bottom: 5vh;
+}
+.price-container {
+    border: none;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.price-label {
+    font-weight: bold;
+    margin-left: 0.7vw;
+    position: relative;
+    top: 1vh;
+}
+.price-container .range-price {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.1vw;
+    position: relative;
+    right: 2px;
+}
+.price-container .range-price input {
+    width: 37%;
+    height: 4vh;
+    padding-left: 5px;
+}
+.brands-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    min-height: 8.6vh;
+    max-height: 50vh;
+    overflow-y: auto;
+    cursor: pointer;
+}
+.brands-container .brands-label {
+    font-weight: bold;
+    position: relative;
+    left: 13px;
+}
+.brands-container .arrow-down-i {
+    position: relative;
+    right: 14px;
+    cursor: pointer;
+    transition: all .1s ease-in;
+
+}
+
+#brandList {
+    color: red;
+    list-style: none;
+}
+#brand-list {
+    position: relative;
+    flex: 0 0 100%;
+    display: none;
+    font-size: 13px;
+    height: 23vh;
+}
+.fb-action-btns {
+    /* height: 20vh; */
+    display: flex;
+    justify-content: space-around;
+    /* height: 7vh; */
+}
+.fb-action-btns button {
+    position: relative;
+    top: 3vh;
+    color: #ffffff;
+    background-color: #1E88E5;
+    border: none;
+    width: 5vw;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.fb-action-btns button:hover {
+    background-color: #000000;
+}

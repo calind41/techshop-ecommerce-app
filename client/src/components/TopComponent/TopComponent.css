@@ -1,0 +1,28 @@
+.topcomponent-container {
+    width: 80vw;
+    margin: auto;
+    margin-top: 25px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 50px; */
+    padding-bottom: 20px;
+    height: 61px;
+}
+.wrapper-c-f-ua {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 84px;
+    width: 8.6vw;
+    justify-content: space-between;
+}
+.sb-container {
+    position: relative;
+    right: 2vw;
+}
+.logo-top-container {
+    position: relative;
+    right: 2.8vw;
+}

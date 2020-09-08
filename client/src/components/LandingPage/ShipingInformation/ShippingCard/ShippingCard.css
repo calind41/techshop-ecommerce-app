@@ -1,0 +1,60 @@
+.shippingcard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 24.4vw;
+    height: 32vh;
+    /* margin-left: 25px; */
+}
+.shippingcard-container .icon-container .shipping-info-icons-className {
+    font-size: 3rem;
+    margin-left: 1vw;
+    color: #ffffff;
+}
+.sc-right-side {
+    position: relative;
+    left: 1vw;
+    width: 20vw !important;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sc-heading-txt {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.sc-text {
+    font-size: 0.9rem;
+    /* border: 2px solid red; */
+    color: white;
+}
+.call {
+    position: relative;
+    top: 2.1vh;
+    width: 15vw;
+}
+.free-shipping-text {
+    position: relative;
+    top: 3.7vh;
+    width: 15vw;
+}
+.ret-exch-text {
+    position: relative;
+    top: 2.1vh;
+    width: 15vw;
+}
+.satisf-guarantee-text {
+    position: relative;
+    top: 2.1vh;
+    width: 15vw;
+}
+.satisf-guarantee-heading {
+    /* border: 2px solid red; */
+    width: 18vw;
+}
+.call-pos-class {
+    position: relative;
+    left: 30px;
+}

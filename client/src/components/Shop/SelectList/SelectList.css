@@ -1,0 +1,10 @@
+.sl-container {
+    display: flex;
+    align-items: center;
+    width: 12vw;
+}
+.sl-container .sl-label {
+    font-weight: bold;
+    color: #727171;
+    font-size: 0.99rem;
+}

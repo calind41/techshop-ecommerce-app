@@ -1,0 +1,32 @@
+.categories-container {
+    width: 17.9vw;
+  
+}
+.categories-container .categories-label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 4vh;
+    color: #000000;
+}
+.categories-container .category-list ul {
+    list-style: none;
+    height: 59vh;
+}
+.categories-container .category-list ul li {
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid rgb(218, 218, 218);
+    border-bottom: none;
+    height: 14.28%;
+    display: flex;
+    align-items: center;
+    color: #727171;
+    padding-left: 0.5vw;
+    transition: .3s ease-in-out;
+}
+.categories-container .category-list ul li:hover {
+    color: #1E88E5;
+}
+.categories-container .category-list ul li:last-child {
+    border-bottom: 1px solid #e9e9e9 !important;
+}

@@ -1,0 +1,45 @@
+.productcateg-container {
+    margin: auto;
+    margin-top: 28px;
+    width: 23vw;
+    height: 20vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+}
+.productcateg-container div img {
+    width: 12vw;
+    height: 12vw;
+    position: relative;
+    top: 9vh;
+    left: 0.009vw;
+}
+
+.productcateg-container div .categ-icons-class {
+    position: relative;
+   font-size: 2.7rem;
+   top: 70px;
+   left: 25px;
+}
+
+.productcateg-container .wrapper-tablets-i {
+    display: flex;
+    flex-direction: column;
+    height: 25.5vh;
+}
+.productcateg-container .wrapper-tablets-i .tablets {
+    position: relative;
+    top: 10.4vh;
+    left: 0.9vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.productcateg-container .wrapper-tablets-i .tablets:hover {
+    color: #1E88E5;
+}
+.productcateg-container .wrapper-tablets-i .icon-wrapper {
+    position: relative;
+    top: 2vh;
+    cursor: pointer;
+}

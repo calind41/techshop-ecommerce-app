@@ -1,0 +1,190 @@
+.profile-container {
+    width: 88vw;
+    height: 74vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+#profile-img {
+    width: 10vw;
+    height: 15.4vh;
+
+}
+.dateCont {
+    width: 40vw;
+    height: 34vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+}
+.dateCont > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+
+}
+.dateCont .date {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    right: 0vw;
+}
+.dateCont .date span:nth-child(1) {font-weight: bold; display: inline-block; width: 5.5vw;}
+.dateCont .date span:nth-child(2) {display: inline-block; margin-left: 1.4vw; width: 300px;}
+
+
+.activitateaMea {
+    height: 34vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e5e5e5;
+}
+.activitateaMea > div:nth-child(1) {
+    position: relative;
+    top: 4.03vh;
+    left: 2.7vw;
+    font-weight: bold;
+}
+.comenzi-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 10vh;
+}
+#comanda-img {
+    width: 10vw;
+    height: 10vh;
+}
+.adreseleMele {
+    height: 34vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+}
+.adreseleMele > div:nth-child(1) {
+    font-weight: bold;
+    padding-left: 4.2vw;
+    padding-top: 2vh;
+}
+.adreseleMele > div:nth-child(2) {
+    font-size: 10px; 
+    color: blue;
+    position: relative;
+    top: -17px;
+    left: 4.2vw;
+}
+.adreseleMele > div:nth-child(3) {
+    font-size: 12px;
+    color: purple;
+    font-weight: bold;
+    position: relative;
+    left: 4.2vw;
+    bottom: 2vh;
+}
+.adreseleMele > div:nth-child(4) > div:nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    left: 4.2vw;
+    bottom: 4vh;
+}
+.adreseleMele > div:nth-child(4) > div:nth-child(2) {
+    position: relative;
+    left: 4.2vw;
+    bottom: 3.8vh;
+}
+.adreseleMele > div:nth-child(4) > div:nth-child(3) {
+    position: relative;
+    left: 4.2vw;
+    bottom: 2vh;
+    width: 26.5vw;
+}
+.adreseleMele > div:nth-child(4) > div:nth-child(2),
+.adreseleMele > div:nth-child(4) > div:nth-child(3)  {
+    font-size: 14px;
+}
+
+.adreseleMele > div:nth-child(5) {
+    color: blue;
+    font-size: 14px;    
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-left: 4.25vw;
+}
+
+.dateFacturare {
+    height: 34vh;
+    width: 30vw;
+    background-color: #e5e5e5;
+}
+
+.dateFacturare > div:nth-child(1) {
+    font-weight: bold;
+    padding-left: 4.2vw;
+    padding-top: 2vh;
+}
+.dateFacturare > div:nth-child(2) {
+    font-size: 10px; 
+    color: blue;
+    position: relative;
+    top: 5px;
+    left: 4.2vw;
+}
+.dateFacturare > div:nth-child(3) {
+    font-size: 12px;
+    color: purple;
+    font-weight: bold;
+    position: relative;
+    left: 4.2vw;
+    top: 3.414vh;
+}
+.dateFacturare > div:nth-child(4) > div:nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    left: 4.2vw;
+    top: 3.45vh;
+}
+.dateFacturare > div:nth-child(4) > div:nth-child(2) {
+    position: relative;
+    left: 4.2vw;
+    top: 3.55vh;
+}
+.dateFacturare > div:nth-child(4) > div:nth-child(3) {
+    position: relative;
+    left: 4.2vw;
+    top: 5.2vh;
+    width: 26.5vw;
+}
+.dateFacturare > div:nth-child(4) > div:nth-child(2),
+.dateFacturare > div:nth-child(4) > div:nth-child(3)  {
+    font-size: 14px;
+}
+
+.dateFacturare > div:nth-child(5) {
+    color: blue;
+    font-size: 14px;    
+    border-top: 1px solid gray;
+    display: flex;
+    position: relative;
+    top: 9.7vh;
+    align-items: center;
+    height: 5vh;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-left: 4.25vw;
+}

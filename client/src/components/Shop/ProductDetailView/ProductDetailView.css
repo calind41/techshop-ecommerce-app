@@ -1,0 +1,27 @@
+.prod-detail-view-container {
+    width: 98.9vw;
+    min-height: 100vh !important;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.prod-detail-view-container .wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.img-slideshow-wrapper {
+    margin-top: 70px;
+    height: 449px;
+    width: 50vw;  
+    position: relative;
+    left: 8.6vw;
+}
+.rsp-desc-wrapper {
+    margin-top: 70px;
+    position: relative;
+    right: 8vw;
+    width: 37vw;
+    height: 590px;
+}
+
+

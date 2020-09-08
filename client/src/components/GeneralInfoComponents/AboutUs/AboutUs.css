@@ -1,0 +1,205 @@
+.aboutus-container {
+    margin-top: 87vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.h1-aboutus {margin: auto;}
+.h1-aboutus h1 {
+    font-size: 41px;
+    font-weight: bold;
+}
+.h4-txt {
+    position: relative;
+    margin: auto;
+    margin-top: 32px;
+}
+.h4-txt h4 {
+    font-size: 19px;
+    font-weight: bold;
+}
+.p-txt {
+    position: relative;
+    top: 23px;
+    color: #727171;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+    margin-top: 8vh;
+}
+
+#products-avlbl > div:first-child {
+    color: #1e88e5;
+    font-weight: bold;
+    font-size: 41px;
+    margin-left: 25px;
+}
+#products-avlbl > div:nth-child(2) {
+    position: relative;
+    top: 10px;
+    right: 35px;
+    font-size: 17px;
+    color: #1e88e5;
+}
+
+/* == */
+#comeback-clt-percentg > div:first-child {
+    font-weight: bold;
+    color: #1e88e5;
+    font-size: 41px;
+    position: relative;
+    right: 19px;
+}
+#comeback-clt-percentg > div:nth-child(2) {
+    position: relative;
+    right: 50px;
+    top: 10px;
+    font-size: 17px;
+    color: #1e88e5;
+}
+/* == */
+#sitemembers > div:first-child {
+    font-weight: bold;
+    color: #1e88e5;
+    font-size: 41px;
+    margin-left: 60px;
+}
+#sitemembers > div:nth-child(2) {
+    position: relative;
+    /* right: 50px; */
+    left: 13px;
+    top: 10px;
+    font-size: 17px;
+    color: #1e88e5;
+}
+
+.au-hrow {
+    width: 80vw;
+    margin: auto;
+    margin-top: 77px;
+    height: 1px;
+    border: none;
+    border-top: 1px solid #727171;
+}
+
+/* store events wrapper */
+.store-events-wrapper {
+    /* border: 2px solid red; */
+    width: 80vw;
+    margin: auto;
+    margin-top: 77px;
+
+}
+
+.store-events-wrapper .lbl {
+    font-size: 26px;
+    font-weight: bold;
+    margin: auto;
+    width: 13vw;
+}
+.store-events-wrapper .store-events {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 5vh;
+}
+
+.store-events-wrapper .store-events div div:first-child {
+    margin-left: 7vw;
+}
+.store-events-wrapper .store-events div div:first-child .store-events-wrapper-icons {
+    font-size: 50px;
+    padding-left: 32px;
+    padding-top: 32px;
+    border: 2px solid #1e88e5;
+    color: #1e88e5;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.store-events-wrapper .store-events div div:nth-child(2) {
+    margin-top: 20px;
+    margin-left: 41px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.st-ev-2 .heading-txt {
+    margin-left: 71px !important;
+    
+}
+.st-ev-3 .heading-txt {
+    margin-left: 28px !important;
+}
+
+.store-events-wrapper .store-events div div:nth-child(3) {
+    margin-top: 19px;
+    font-size: 15px;
+    color: #727171;
+    text-align: center;
+}
+.au-hrow2 {
+    width: 80vw;
+    margin: auto;
+    margin-top: 80px;
+    height: 1px;
+    border: none;
+    border-top: 1px solid #727171;
+}
+
+/* testimonials ---------- */
+.testimonials-wrapper {
+    width: 80vw;
+    margin: auto;
+    margin-top: 77px;
+}
+.testimonials-wrapper .lbl {
+    font-size: 26px;
+    font-weight: bold;
+    margin: auto;
+    width: 13vw;
+    margin-bottom: 32px;
+}
+
+.testimonials-wrapper .tquotes-icon {
+    margin: auto;
+    width: 4vw;
+    height: 10vh;
+}
+.testimonials-wrapper .tquotes-icon .testimonials-icon {
+    font-size: 50px;
+    color: #1e88e5;
+    width: 120px;
+    height: 120px;
+}
+.testimonials-wrapper .testimonials {
+    display: flex;
+    margin-top: 14px;
+    justify-content: space-around;
+}
+
+.testimonials-wrapper .testimonials div div:first-child {
+    color: #1e88e5;
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 2.8vw;
+    margin-bottom: 3vh;
+}
+.testimonials-wrapper .testimonials div div:nth-child(2) {
+    font-size: 15px;
+    color: #727171;
+    text-align: center;
+    width: 17vw;
+}
+.au-footer-copyright {
+    position: relative;
+    bottom: 26vh;
+}
+

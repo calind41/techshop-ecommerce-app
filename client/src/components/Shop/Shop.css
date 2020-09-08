@@ -1,0 +1,125 @@
+.shop-contner {
+    height: 225vh;
+}
+.information-container {
+    position: relative;
+    width: 17.9vw;
+        /* bottom: 7.8vh; */
+    bottom: 15.4vh;
+
+}
+.category-name-heading {
+    font-size: 41px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    
+}
+.fltrby-container {
+    width: 18.5vw;
+    position: relative;
+    bottom: 16vh;
+}
+.shop-wrapper {
+    display: flex;
+    height: 190vh;
+}
+.shop-main-container {
+    height: 198vh;
+    width: 56vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 11.3vw;
+}
+.shop-main-container .view-criterias {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 2.2vh;
+    right: 1.87vw;
+    justify-content: space-around;
+
+}
+
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    position: relative;
+    left: 11.3vw;
+}
+
+.aside-container > div {
+    margin-bottom: 2vh;
+}
+
+.view-criterias-down .sortby-container-down {
+    position: relative;
+    right: 3.34vw;
+    bottom: 70px;
+}
+.view-criterias .sortby-container {
+    position: relative;
+    right: 3.34vw;
+}
+#pagination-component {
+    position: relative;
+    left: 8.6vw;
+}
+#pagination-component-down {
+    position: relative;
+    left: 8.6vw;
+    bottom: 9vh;
+}
+.shop-prod-container {
+    height: 169vh;
+    width: 56vw;
+  
+    position: relative;
+    left: 0.9vw; 
+    bottom: .7vh;
+    display: flex;
+    flex-wrap: wrap;   
+    align-content: flex-start;
+  
+}
+.shop-prod-container .p-item {
+    margin-bottom: 7vh;
+    margin-left: 0.5vw;
+    height: 50vh;
+}
+.shop-main-container .p-item:nth-child(7),
+.shop-main-container .p-item:nth-child(8),
+.shop-main-container .p-item:nth-child(9)  {
+    margin-bottom: -18px;
+}
+
+#footer-cpyright-container {
+    height: 80vh;
+    position: relative;
+    z-index: -5;
+    bottom: 14vh;
+}
+#footer-cpyright-container > div:first-child {
+    position: relative;
+    bottom: 17vh;
+}
+#footer-cpyright-container > div:last-child {
+    position: relative;
+    bottom: 17vh;
+}
+
+.view-criterias-down {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 11.9vh;
+    right: 1.89vw;
+    z-index: 9999999;
+}

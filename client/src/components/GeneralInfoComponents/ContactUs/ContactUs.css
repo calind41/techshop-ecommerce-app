@@ -1,0 +1,117 @@
+.contact-us-container {
+    height: 100vh;
+}
+.cu-h1 {
+    font-size: 19px;
+    font-weight: bold;
+    width: 31.5vw;
+    margin-left: 11.15vw;
+    margin-top: 10vh;
+    position: relative;
+    top: 2vh;
+}
+.cu-another-wrapper {
+    display: flex;
+    width: 76.5vw;
+    margin: auto;
+}
+.cu-another-wrapper .l-side {
+    width: 50%;
+    height: 70vh;
+}
+.l-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.l-side .txt {
+    font-size: 15px;
+    color: #727171;
+    margin-top: 2.4vh;
+}
+.l-side .wrapper {
+    position: relative;
+    bottom: 19vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.l-side .wrapper > div {
+    width: 44%;
+    height: 14vh;
+}
+.l-side .wrapper > div .heading {
+    font-size: 23px;
+    color: #1e88e5;
+}
+.l-side .wrapper > div .heading span {
+    margin-left: 0.8vw;
+}
+.l-side .wrapper > div .content {
+    margin-top: 1vh;
+    margin-left: 1.9vw;
+    font-size: 13px;
+    color: #727171;
+}
+.l-side .wrapper .opening-h-wrapper .content {
+    margin-left: 2.42vw;
+}
+.l-side .wrapper .phone-wrapper .content {
+    margin-left: 2.38vw;
+}
+.l-side .wrapper .email-wrapper .content {
+    margin-left: 2.3vw;
+}
+.cu-another-wrapper .r-side {
+    position: relative;
+    left: 1.60vw;
+}
+.r-side .heading {
+    position: relative;
+    bottom: 1vh;
+    font-size: 19px;
+    color: #1e88e5;
+    font-weight: bold;
+}
+.r-side .form-wrapper {
+    height: 52vh;
+    width: 42.4vw;
+    display: flex;
+    flex-direction: column;
+}
+.r-side .form-wrapper input {
+    height: 7vh;
+    width: 39vw;
+    margin-bottom: 2vh;
+    padding-left: 1.1vw;
+}
+.r-side .form-wrapper textarea {
+    resize: none;
+    width: 39vw;
+    height: 13.8vh;
+    padding-left: 1.1vw;
+    padding-top: 1.4vh;
+    z-index: 1213;
+}
+.r-side .form-wrapper button {
+    width: 8vw;
+    height: 6.4vh;
+    margin-top: 19px;
+    background-color: #1e88e5;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .28s ease;
+    z-index: 1213;
+
+}
+.r-side .form-wrapper button:hover {
+    background-color: #000000;
+}
+
+.cu-footer-copyright {
+    position: relative;
+    bottom: 20.6vw;
+}

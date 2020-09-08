@@ -1,0 +1,43 @@
+.infoTablesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+div > .info-tbl {
+    display: block;
+    margin-right: 100px;
+    width: 30.7vw !important;
+    margin-bottom: 3vh;
+}
+div > .info-tbl > tr:nth-child(1) {
+    color: white;
+    background-color: #1e88e5;
+    text-align: left;
+    padding-left: 1px;
+    display: inline-block;
+    width: 30.4vw;
+}
+div > .info-tbl > tr:not(:nth-child(1)) {
+    border: 1px solid red;
+    padding-top: 10px;
+}
+div > .info-tbl > tr:not(:nth-child(1)):nth-child(even)  {
+    background-color: #F5F5F5;
+}
+div > .info-tbl > tr td:nth-child(1) {
+    width: 200px;
+    /* border: 2px solid red; */
+}
+div > .info-tbl > tr td:nth-child(2) {
+    position: relative;
+    /* right: 14vw; */
+    left: -1px;
+    width: 264.5px;
+    /* border: 2px solid red; */
+}
+div > .info-tbl > tr > td span{
+    display: inline-block;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #000000;
+}

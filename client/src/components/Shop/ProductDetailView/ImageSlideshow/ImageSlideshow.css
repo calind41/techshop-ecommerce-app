@@ -1,0 +1,9 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.image-gallery-slide img {
+    /* width: 37vw !important; */
+    height: 70vh;
+  }
+ #img-s {
+     position: relative;
+     bottom: 9vh;
+ }

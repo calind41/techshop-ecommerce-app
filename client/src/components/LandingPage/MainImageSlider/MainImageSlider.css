@@ -1,0 +1,108 @@
+
+/* width */
+.screenW {
+    width: 100vw;
+}
+.fullW {
+    width: 100%;
+}
+/* height */
+.screenH {
+    height: 100vh;
+}
+.fullH {
+    height: 100%;
+}
+.height70 {
+    height: 70px;
+}
+/* bg color */
+.dGray {
+    background-color: #333;
+}
+.white {
+    background-color: #fff;
+}
+.white50 {
+    background-color: #ffffff80;
+}
+.black50 {
+    background-color: #00000080;
+}
+
+/* font */
+.fSize2 {
+    font-size: 2rem;
+}
+
+/* image */
+.imgCover {
+    object-fit: cover;
+}
+
+/* overflow */
+.overflowH {
+    overflow: hidden;
+}
+
+/* transitions */
+.transition1l {
+    transition: left 1s ease-in-out;
+}
+/* position */
+.abs {
+    position: absolute;
+}
+.rel {
+    position: relative;
+}
+.left0 {
+    left: 0px;
+}
+.left100vw {
+    left: 100vw;
+}
+.leftM100vw {
+    left: -100vw;
+}
+.bot0 {
+    bottom: 0;
+}
+/* flex */
+.df {
+    display: flex;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.fCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex1 {
+    flex: 1;
+}
+.flex8 {
+    flex: 8;
+}
+
+/* custom */
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    transition: background-color 1s ease-in-out;
+}
+
+
+
+
+
+
+

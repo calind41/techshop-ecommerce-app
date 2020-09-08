@@ -1,0 +1,24 @@
+.newproductslist-container {
+    width: 75vw;
+    height: 120vh;
+    margin: auto;
+    position: relative;
+    top: 20vh;
+    right: 0.59vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.newproductslist-heading span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.products-container {
+    /* border: 2px solid green; */
+    height: 140vh;
+    width: 74.9vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

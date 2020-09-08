@@ -1,0 +1,38 @@
+.userauth-container {
+    position: relative;
+    left: 14px;
+    width: 113px;
+    display: flex;
+    justify-content: space-between;
+}
+#logActionSpan {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.userauth-container .fa-user-icon {
+    color: white;
+    background-color: #1E88E5;
+    font-size: 14px;
+    padding: 7px;
+    transition: .2s ease-in;
+    height: 27.28px;
+    margin-top: 1.59px;
+}
+.userauth-container .fa-user-icon:hover {
+    cursor: pointer;
+    background-color: #000000;
+}
+
+#logActionSpan {
+    /* border: 2px solid red;
+    display: inline-block;
+    width: 200px !important;
+    position: absolute;
+    right: 200px; */
+}

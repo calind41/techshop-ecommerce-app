@@ -1,0 +1,154 @@
+.customer-service-container {
+    position: relative;
+    height: 190vh;
+}
+
+.h1-cs {
+    font-size: 41px;
+    font-weight: bold;
+    width: 29vw;
+    margin: auto;
+    margin-top: 13vh;
+}
+.h4-txt1 {
+    width: 76.5vw;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 7.5vh;
+}
+.p-txt1 {
+    width: 76.5vw;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 3vh;
+}
+.p-txt2 {
+    width: 76.5vw;
+    font-size: 15px;
+    color: #727171;
+    margin: auto;
+    margin-top: 3vh;
+}
+.h4-txt2 {
+    width: 76.5vw;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10vh;
+}
+.cost-table {
+    width: 76.5vw;
+    margin: auto;
+}
+
+.cost-table table {
+    display: table;
+
+}
+.cost-table table tr th {
+    border: 1px solid green;
+    border-left: none;
+    border-right: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    width: 1000px;
+    height: 7vh;
+}
+
+.cost-table table th:first-child span {
+    position: relative;
+    right: 6.3vw;
+}
+.cost-table table th:first-child {
+    position: relative;
+    left: 2px;
+}
+.cost-table table th:nth-child(2) span {
+    position: relative;
+    right: 5.7vw;
+}
+
+.cost-table table th:nth-child(3) span {
+    position: relative;
+    right: 3.5vw;
+}
+.cost-table th:nth-child(3) {
+    position: relative;
+    right: 2px;
+}
+.cost-table table th:nth-child(4) span {
+    position: relative;
+    left: .2vw;
+}
+.cost-table th:nth-child(4) {
+    position: relative;
+    right: 3px;
+}
+
+
+.cost-table table tr td {
+    font-size: 12px;
+    height: 50px;
+}
+.cost-table table tr td:nth-child(2) {
+    width: 15vw !important;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    padding-top: 10px;
+}
+.cost-table table tr td:nth-child(3) {
+    padding-bottom: 12px;
+}
+.cost-table table tr td:nth-child(4) {
+    width: 2vw;
+    display: inline-block;
+    position: relative;
+    left: 5vw;
+    padding-top: 11px;
+}
+
+.h4-txt3,
+.h4-txt4 {
+    width: 76.5vw;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10vh;
+}
+.p-txt3 {
+    width: 76.5vw;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 3vh;
+}
+.terms-and-cond-wrapper {
+    width: 76.5vw;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.terms-and-cond-wrapper > div {
+    width: 35vw;
+    margin-bottom: 8vh;
+}
+.terms-and-cond-wrapper > div .heading {
+    font-size: 20px;
+    margin-bottom: 3vh;
+}
+.terms-and-cond-wrapper > div .heading span {
+    margin-left: 10px;
+}
+.terms-and-cond-wrapper > div .txt {
+    font-size: 15px;
+    color: #727171;
+}
+
+.cs-footer-copyright {
+    position: relative;
+    bottom: 24.5vh;
+}

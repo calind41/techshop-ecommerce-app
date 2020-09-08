@@ -1,0 +1,287 @@
+.shop-c-heading {
+    font-size: 19px;
+    font-weight: bold;
+    width: 13vw;
+    margin: auto;
+    margin-top: 12vh;
+}
+
+.products-table {
+    width: 74.7vw;
+    margin: auto;
+    position: relative;
+    right: 0.84vw;
+    top: 3vh;
+}
+.products-table table tr td img {
+    width: 8.6vw;
+    height: 20vh;
+}
+
+.products-table table {
+    width: 100%;
+    border-collapse: collapse;
+
+    
+}
+.products-table table tr td,
+.products-table table tr th {
+    border: 1px solid #e2e0e0; 
+    box-sizing: border-box;
+
+}
+.products-table table tr th {
+    background-color: #f5f5f5;
+    padding: 0.6vw;
+    text-align: start;
+    color: #727171;
+    font-size: 14px;
+}
+.products-table table tr th:nth-child(4) span {
+    position: relative;
+    left: 2.48vw;
+}
+.products-table table tr {
+}
+.products-table table tr td {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #727171;
+    /* height: 9vw !important; */
+}
+.products-table table tr .prod-img  {
+    text-align: center;
+    padding: 10px;
+    width: 13vw;
+    padding-left: 0;
+}
+.products-table table tr .prod-img img {
+    height: 17vh;
+    width: 8vw;
+}
+.products-table table tr .name-val-td {
+    width: 20vw;
+}
+.products-table table tr td input {
+    width: 3.4vw;
+    height: 4vh;
+    padding-left: 5px;
+    outline: none;
+}
+.products-table table tr .rb-td {
+    width: 11vw;
+    text-align: center !important;
+}
+
+.products-table table tr td .quantity-val-container {
+    display: inline-block;
+    width: 75px;
+    height: 32px;
+    position: relative;
+    left: 2.5vw;
+    user-select: none;
+}
+.products-table table tr td .quantity-val-container span:nth-child(2) {
+    border-left: none;
+    border-right: none;
+}
+.products-table table tr td .quantity-val-container span {
+    border: 1px solid #e2e0e0;
+    font-weight: bold;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 1px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.products-table table tr td .quantity-val-container span:hover {
+    background-color: #727171;
+    color: white;
+}
+
+.products-table table tr .remove-btn {
+    background-color: #1e88e5;
+    color: white;
+    width: 8vw;
+    height: 6vh;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 13px;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: .2s ease;
+    user-select: none;
+}
+.products-table table tr .remove-btn:hover {
+    background-color: #000000;
+}
+
+
+/*  checkout controls : subtotal, total, back to shop, checkout btns */
+.checkout-wrapper {
+    width: 25vw;
+    position: relative;
+    left: 50.5vw;
+    top: 4vh;
+
+}
+.checkout-wrapper .subtotal {
+    width: 14vw;
+    font-size: 19px;
+    font-weight: bold;
+    position: relative;
+    left: 23vw;
+}
+.checkout-wrapper .transport {
+    font-size: 19px;
+    font-weight: bold;
+    position: relative;
+    top: 0.5vh;
+    left: 26.7vw;
+}
+.checkout-wrapper .total {
+    position: relative;
+    top: 1vh;
+    left: 25.4vw;
+    width: 10.7vw;
+    font-size: 19px;
+    font-weight: bold;
+}
+.checkout-wrapper .control-btns-wrapper {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 25.3vw;
+    /* border: 2px solid blue; */
+    width: 10vw;
+
+}
+.checkout-wrapper .control-btns-wrapper  .back button {
+    background-color: #1e88e5;
+    color: white;
+    width: 8vw;
+    height: 6vh;
+    text-align: center;
+    font-weight: bold;
+    padding-top:2px;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: .2s ease;
+    user-select: none;
+    outline: none;
+    border:  none;
+}
+.checkout-wrapper .control-btns-wrapper  .back button:hover {
+    background-color: #000000;
+}
+.checkout-wrapper .control-btns-wrapper .back {
+    position: absolute;
+    left: -64.55vw;
+    top:23vh;
+}
+.checkout-wrapper .control-btns-wrapper .payment-methods {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vh;
+}
+.checkout-wrapper .control-btns-wrapper .payment-methods .ridicare-sediu-container button {
+    background-color: #009cde;
+    color: white;
+    width: 8vw;
+    height: 4.6vh;
+    text-align: center;
+    font-weight: bold;
+    padding-top:2px;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: .2s ease;
+    user-select: none;
+    outline: none;
+    border:  none;
+    position: relative;
+    right: 12.2vw;
+    top:-2vh;
+    border-radius: 5px;
+}
+.checkout-wrapper .control-btns-wrapper .payment-methods .ridicare-sediu-container button:hover {
+    background-color: #000000;
+    
+}
+.checkout-wrapper .control-btns-wrapper .payment-methods .stripe-container {
+    position: relative;
+    left: 2vw;
+    bottom: 6vh;
+    height: 6vh;
+}
+.checkout-wrapper .control-btns-wrapper .payment-methods .paypal-container {
+    position: relative;
+    right: 26.1vw;
+    bottom: 11.5vh;
+    width: 8vw;
+}
+.control-btns-wrapper div:nth-child(1)  {
+    position: relative;
+    left: 7vw;
+}
+
+.discount-code-wrapper {
+    width: 40vw;
+    position: relative;
+    left: 11.2vw;
+    top: 3.99vh;
+
+}
+.discount-code-wrapper button {
+    background-color: #1e88e5;
+    color: white;
+    width: 8vw;
+    height: 6vh;
+    text-align: center;
+    font-weight: bold;
+    padding-top:2px;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: .2s ease;
+    user-select: none;
+    outline: none;
+    border:  none;
+}
+.discount-code-wrapper button:hover {
+    background-color: #000000;
+}
+.discount-code-wrapper .dc-btn {
+    width: 10vw;
+}
+
+.discount-code-wrapper .to-be-shown-on-click {
+    width: 32vw;
+    height: 16vh;
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+}
+.to-be-shown-on-click input {
+    display: block;
+    width: 31vw;
+    height: 5vh;
+    padding-left: 5px;
+    color: #727171;
+    outline: none;
+    margin-top: 10px;
+}
+.to-be-shown-on-click button {
+    position: relative;
+    left: 24.8vw;
+    top: 2.5vh;
+    width: 6.2vw;
+
+}
+

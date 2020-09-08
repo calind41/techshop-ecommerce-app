@@ -1,0 +1,46 @@
+.salecard-container {
+    /* border: 2px solid red; */
+    height: 26vw;
+    /* width: 25vw; */
+    position: relative;
+}
+.salecard-container img {
+    width: 37vw;
+    height: 25vw; 
+}
+.salecard-container .salecard-txt-wrapper {
+    position: absolute;
+    top: 50px;
+    left: 1.4rem; 
+    z-index: 2;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.salecard-txt-wrapper .salecard-txt {
+    width: 24.32vw;
+}
+.topPos {
+    position: relative;
+    bottom: 2rem;
+}
+.salecard-txt-wrapper button {
+    position: relative;
+    top: 1rem;
+    right: 5.5rem;
+    height: 41px;
+    width: 9vw;
+    background-color: transparent;
+    color: white;
+    font-size: 0.7rem;
+    border: 2px solid #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.salecard-txt-wrapper button:hover {
+    background-color: #1e88e5;
+}

@@ -1,0 +1,11 @@
+.categlist-container {
+    width: 77.19vw;
+    height: 88vh;
+    margin: auto;
+    position: relative;
+    right: 0.87vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 888888;
+}

@@ -1,0 +1,37 @@
+
+.empty-c-heading {
+    font-size: 22px;
+    font-weight: bold;
+    width: 17vw;
+    margin: auto;
+    margin-top: 15vh;
+    margin-left: 88vh;
+}
+.empty-cart-heading {
+    width: 13.2vw;
+    margin: auto;
+    margin-top: 1.9vh;
+    font-size: 14px;
+    font-weight: bold;
+}
+.empty-cart-container  button {
+    width: 14vw;
+    height: 6.4vh;
+    margin-top: 5px;
+    background-color: #1e88e5;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .28s ease;
+    margin-left: 42.2vw;
+    margin-top: 4vh;
+}
+.empty-cart-container  button:hover { background-color: #000000; }
+
+.cart-footer-copyright {
+    position: relative;
+    bottom: 24.8vh;
+    z-index: -5;
+}

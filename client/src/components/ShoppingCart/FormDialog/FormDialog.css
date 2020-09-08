@@ -1,0 +1,12 @@
+.fullName {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+.prod-summary {
+    margin-bottom: 23px;
+}
+#form-dialog-title {
+    color: #1e88e5;
+    font-weight: bold;
+}

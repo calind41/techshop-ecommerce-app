@@ -1,0 +1,17 @@
+.shippinginfo-container {
+    position: relative;
+    top: 41vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #1e88e5;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 32vh;
+}
+.vl {
+    position: relative;
+    top: 10vh;
+    border-left: 1px solid #ffffff;
+    height: 16vh;
+}
